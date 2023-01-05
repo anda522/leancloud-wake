@@ -1,4 +1,4 @@
-# leancloud-self-wake
+# leancloud-wake
 
 用 Valine 做评论系统，用 LeanCloud 储存数据，并用云引擎部署 web服务管理评论内容，并邮件提醒。
 
@@ -11,14 +11,14 @@
 # USE
 
 1. fork 此仓库
-2. 在 setting -> Secrets，添加一个 secret，Name 为 SITE，Value 为 **评论后台网站的地址**。
+2. 在 setting -> Secrets，添加一个 secret，Name 为 `SITE`（必须为`SITE`，配置文件中用了`SITE`），Value 为 **评论后台网站的地址**。
 3. star 自己的仓库，这样是为了手动触发一次定时任务。
 
 
 
 # ADDED
 
-图文见blog：[一行命令解决 LeanCloud 流控问题](https://www.aimtao.net/slef-wake-leancloud/)
+图文可参考blog：[一行命令解决 LeanCloud 流控问题](https://www.aimtao.net/slef-wake-leancloud/)
 
 
 # UPDATA

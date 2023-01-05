@@ -1,4 +1,4 @@
-name: 'LeanCloud Self Wake'
+name: 'LeanCloud Wake'
 
  # 触发条件
 on:
